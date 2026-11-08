@@ -1,0 +1,248 @@
+{
+  "clientDate": "2026-11-05",
+  "timezone": "Asia/Manila",
+  "schema": 6,
+  "scope": "Staff enrollment, command recovery and ARM64 Android debug artifact",
+  "artifact": {
+    "path": "artifacts/KAPE-DOZ-Staff-Recovery-debug.apk",
+    "sha256": "7E837E0CAAA18963203C711B566FDAA7A6813823B9A0E1DA9A73955032736EBA"
+  },
+  "files": [
+    {
+      "path": "contracts/staff-recovery.md",
+      "sha256": "03EC4A319DACDE45F56EDC302BFA16006AC828A519C2C71F605A34E55047B23F"
+    },
+    {
+      "path": "mobile/android/app/build.gradle.kts",
+      "sha256": "BD428F5A97A96366F520CD9E1FA8208AD3D9E5A7234208E8FBD06ADAFABD6125"
+    },
+    {
+      "path": "mobile/android/app/src/main/AndroidManifest.xml",
+      "sha256": "23B9FCE1833C44330FF1698C77A10DF4C3C98687A7A0E3549805049B24F31776"
+    },
+    {
+      "path": "mobile/android/app/src/main/kotlin/com/cafedos/cafe_dos/MainActivity.kt",
+      "sha256": "6C3FE746CA6465BDDBB0689BF9A6DCA19C9A003F4FFC3580A7DCD877ACBA3235"
+    },
+    {
+      "path": "mobile/android/app/src/main/kotlin/com/cafedos/cafe_dos/RecoveryStorage.kt",
+      "sha256": "2A97B918D5F55708DB21B9D4ED7092E86107514204E195811CE3AF6A3E380A2F"
+    },
+    {
+      "path": "mobile/lib/admin/admin_app.dart",
+      "sha256": "7930A15C545F31489FE43C14CA41D2B990A31650FB788B49E021B78600977CEE"
+    },
+    {
+      "path": "mobile/lib/app/cafe_theme.dart",
+      "sha256": "16F1D75E1BDE2F75E6663785EE4DC6AFC1C927C9F21E2540AE567127B5C0E8CF"
+    },
+    {
+      "path": "mobile/lib/connected/hub_setup.dart",
+      "sha256": "151972C87483F8DCA422C1F93116ED842A1A1156E626668C4F74418C5F63CB6E"
+    },
+    {
+      "path": "mobile/lib/connected/staff_app.dart",
+      "sha256": "A02A7E074BB93F307607DA1F281F5C3581EC467B306B44B445EF88CFC2ADDEE1"
+    },
+    {
+      "path": "mobile/lib/data/development_store.dart",
+      "sha256": "AD32D6A211DEA444DFE938402E6651732DD423573CB7DB7E0984CB2D1AAA91A3"
+    },
+    {
+      "path": "mobile/lib/data/hub_client.dart",
+      "sha256": "A55704CB285B2E3E6ECFD2CEBF2FE8E21FD0BF7800BEA88D7EA69C32FE5879CB"
+    },
+    {
+      "path": "mobile/lib/data/platform_recovery_storage.dart",
+      "sha256": "B52719D3CE4128B1CBA9B490AB5922921213C8FABF619DC26B81358DF2D02240"
+    },
+    {
+      "path": "mobile/lib/data/staff_recovery.dart",
+      "sha256": "DE4B4D934049FE0A77C46363D8BBEC052F4EF3983BE94AB94C1EDFEE6C3F70AC"
+    },
+    {
+      "path": "mobile/lib/domain/cafe_engine.dart",
+      "sha256": "3A12BFC7650620BF92B8D4FFD0B2C7320742D00686789D0A3A54720360A35255"
+    },
+    {
+      "path": "mobile/lib/main.dart",
+      "sha256": "AACB2E240F16CE06D535FA9985D06756EB548D37EAF5A10D8D7716DFE862A285"
+    },
+    {
+      "path": "mobile/lib/staff_wireframe/staff_app.dart",
+      "sha256": "ACB9B8B0E577455C79CBED0F133C012C298222DC7F9E506F676EC38FF9312849"
+    },
+    {
+      "path": "mobile/lib/wireframe_main.dart",
+      "sha256": "9301BD1CFA530C684AFBF253E07B3A267B66FE9DE50168030AA3937D3DB7B738"
+    },
+    {
+      "path": "mobile/pubspec.lock",
+      "sha256": "F665AFFCCD9CB91685B37A56A93F033C23624C1A969F7BE00663070A1000F15B"
+    },
+    {
+      "path": "mobile/pubspec.yaml",
+      "sha256": "DC4177ACE6C5CECF946F3BF70EF63726E6502FB223CC0A85F5927D44B2CE98A0"
+    },
+    {
+      "path": "mobile/test/compact_ticket_test.dart",
+      "sha256": "A8BEDB78C829346B4F3199A953591547E9A22EC507734F248DCF26CA7105F7B7"
+    },
+    {
+      "path": "mobile/test/connected_recovery_test.dart",
+      "sha256": "AC8BFF49B967A1C26D5BAF37BA211A646EF55CDC833680C8922C6DB98E376716"
+    },
+    {
+      "path": "mobile/test/connected_staff_test.dart",
+      "sha256": "46363FDAD3096FCF74D01A87C1943CFA75FE27CFEE37EB97D0359284AF8A8EAA"
+    },
+    {
+      "path": "mobile/test/domain_test.dart",
+      "sha256": "17153EDDC0C4D4C9C8CB69EF139B3161F8404053A3FA878DAFAE436AA87ED6E3"
+    },
+    {
+      "path": "mobile/test/draft_orders_test.dart",
+      "sha256": "BA02A5B30212473F01A2A46DC381779BE05EB4FEEDF33CFDB95CE65F52B48E96"
+    },
+    {
+      "path": "mobile/test/hub_client_test.dart",
+      "sha256": "4ABA4161756B64B8F9918C02747FB8B77CEA3F1AD72E6E34F846FB3784764A32"
+    },
+    {
+      "path": "mobile/test/hub_command_status_test.dart",
+      "sha256": "EFA21FC83E3D6ED7E969DCEA27DA2897B6E37F1FC7356DE1BA4D431EE4E1263C"
+    },
+    {
+      "path": "mobile/test/hub_setup_test.dart",
+      "sha256": "F86C8FBB65E7DE3F6A0ED225FC4F47E5C7D7BE8B90B3017FF76B70D93AE60063"
+    },
+    {
+      "path": "mobile/test/hub_transport_test.dart",
+      "sha256": "D0A92C088982156BFE3468CD57B5AE61BCC968B44EB3FE55AD626D5C912AA2DD"
+    },
+    {
+      "path": "mobile/test/layout_test.dart",
+      "sha256": "F0D5D7BC663899076B90B034715509F932B0B02A9914D584E07C78E0C5E602F9"
+    },
+    {
+      "path": "mobile/test/platform_recovery_storage_test.dart",
+      "sha256": "DA54B769E2B35FDBEEEAEBC38F70A81FBB541435DFCCF75A6509C2340E95CBBB"
+    },
+    {
+      "path": "mobile/test/recovery_transport_test.dart",
+      "sha256": "7B6A9289B1F817B733DB3DE04E78950B576723CEEE403F9589C8344D52EA358D"
+    },
+    {
+      "path": "mobile/test/staff_recovery_test.dart",
+      "sha256": "EA244E89581877F43ADBBEC8D840F6C836D7E95F501D37F7407FDB5E924E8651"
+    },
+    {
+      "path": "mobile/test/tables_flow_test.dart",
+      "sha256": "1DDFB9CAA148F0A4DC65774F354F5A39C81D8DFE58F3656332E0DA6220F06E98"
+    },
+    {
+      "path": "mobile/test/top_nav_controls_test.dart",
+      "sha256": "5632AF349E199FE657C0F53494C62132E24E5577E3771A8E1A5F113B461051FA"
+    },
+    {
+      "path": "mobile/test/widget_test.dart",
+      "sha256": "0B98D304DBD9E6F2DFC1969439697D897435831AA4E290C764D8661B09FF63AF"
+    },
+    {
+      "path": "mobile/test/wireframe_preview_test.dart",
+      "sha256": "319DA57FBA25C64208251733B2624B7BF026F9FD9B11DF3E1C3FFAFD75C75F03"
+    },
+    {
+      "path": "mobile/test/working_orders_test.dart",
+      "sha256": "3CAB76D1E349848515442B42143B123D15D237763F051D7EF1BF91265AD14C12"
+    },
+    {
+      "path": "mobile/tools/dev.ps1",
+      "sha256": "C8D347420AE02ABC2107F70A41D8B65AFFB48901482208F502120F87961A0366"
+    },
+    {
+      "path": "mobile/tools/rehearse-recovery.ps1",
+      "sha256": "30FE786F3F6B38865ED5836610B72C541D332925037D4BC80DA90CFB3674F275"
+    },
+    {
+      "path": "services/migrations/001_authority.sql",
+      "sha256": "FF02BA488AF620B1D67E7BB9B5CECBECA23C4399823A6CC998FAAFED4BB3F00B"
+    },
+    {
+      "path": "services/migrations/002_auth_reservations.sql",
+      "sha256": "285049357B58713F2CB75F78546B69CC716EFF743AF92D840B5D6AA111FEBA31"
+    },
+    {
+      "path": "services/migrations/003_business.sql",
+      "sha256": "2165DA09767D10C2CC4D8E74BE0331CF294DF7264F35AC503A15C444E320272B"
+    },
+    {
+      "path": "services/migrations/004_command_context.sql",
+      "sha256": "22F38D9200849D4787ED5B27D3F604B058D5E066CF8FB3EE15D7EC194687C5EC"
+    },
+    {
+      "path": "services/migrations/005_operating_expenses.sql",
+      "sha256": "FD7C323D608D64762BBBE544F835DB9935C50212986A40681D4C04370A0B3F2A"
+    },
+    {
+      "path": "services/migrations/006_sales_valuation.sql",
+      "sha256": "5EEA5A97D8E67F2DEB4318F0AD990ED701823F5CBF9376F9F7CBC726621FCF3C"
+    },
+    {
+      "path": "services/package-lock.json",
+      "sha256": "10F6B3B2AC5954E81314DFBC454231D4C6B5C90629B8C96EF3E946B84DB920B2"
+    },
+    {
+      "path": "services/src/bootstrap.ts",
+      "sha256": "DEC5F374C36A9EE1587023D059B7BE6501028193803AF102D3CBFE1F65EAAD89"
+    },
+    {
+      "path": "services/src/business_routes.ts",
+      "sha256": "2E15888540ED1BA502D10FD4FBCDCD92AF85EAED98E2F0D91A9627B412EAB7E4"
+    },
+    {
+      "path": "services/src/business_validation.ts",
+      "sha256": "44F83593F511268AAD5F14D29D1AE35129F6EE9EDEFA2B63458F837E555726EF"
+    },
+    {
+      "path": "services/src/business.ts",
+      "sha256": "3D2879EEDEC8DBE471A01097DB01CEB90DF21269D9C6225648547BCF05B7B11A"
+    },
+    {
+      "path": "services/src/database.ts",
+      "sha256": "B48640086B7F96265B9640B930EF439B39865ED3FC2DC1A8540BF2CF2133568E"
+    },
+    {
+      "path": "services/src/errors.ts",
+      "sha256": "8D65862CAD41B35CF37985649A257461BB5A916105681BC8040AF93E9DE66F1D"
+    },
+    {
+      "path": "services/src/hub.ts",
+      "sha256": "20420E7B08B4959C9B322CBB2795133A9CE7F52FC4EB2D19B2445F3A28DF97B7"
+    },
+    {
+      "path": "services/src/identity.ts",
+      "sha256": "C3CC040EFC1BF41BB4C032BA890290DE499962535B3D8D9F1CC8DEA6619B8F2C"
+    },
+    {
+      "path": "services/src/inventory_valuation.ts",
+      "sha256": "6443B4DA4720FDE61CF9C7FCA62E5FA5DDEED5A97BEAF886450B2834158FE467"
+    },
+    {
+      "path": "services/src/sales_report.ts",
+      "sha256": "474257BFFC546A935DD13F07FF7096E0F973FDA3CCCB41EC3E9DE8E0DEB6671E"
+    },
+    {
+      "path": "services/src/server.ts",
+      "sha256": "73E2DB858642058822561E10CD19DEAD13CCF6E853ADDF6F6D99838C1E15488A"
+    },
+    {
+      "path": "services/src/validation.ts",
+      "sha256": "D0E71DEB03245D690C1B1E69B8CE85616AEEDD8E3AA7B63F1DF3512551AB0F5E"
+    },
+    {
+      "path": "services/tests/fixtures/transport_hub.ts",
+      "sha256": "46AAFBE0DE8A13AA47E38348EECFC24BDFE3CC39F52D4D89E16F9192CBC30705"
+    }
+  ]
+}

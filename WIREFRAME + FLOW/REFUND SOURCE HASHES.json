@@ -1,0 +1,586 @@
+{
+  "clientDate": "2026-11-05",
+  "timezone": "Asia/Manila",
+  "schema": 9,
+  "scope": "Monetary refund allocation, independent legs, manual provider evidence, actual-shift cash debits and dated reporting",
+  "artifact": {
+    "path": "artifacts/KAPE-DOZ-Staff-Refunds-debug.apk",
+    "sha256": "2844CFC8D3FEB11C216CD48007C7F7D1320706A770463E47902A42864A35C09F"
+  },
+  "files": [
+    {
+      "path": "admin/index.html",
+      "sha256": "97476B72C37CAF0826BA403000DD1FCEF67BB6B8F7DF044EAC0E695DA6D510D8"
+    },
+    {
+      "path": "admin/package-lock.json",
+      "sha256": "D5EF3F304A67D9813FC070D58C1AED770E57E45D8E9F5ECDF475D6D45539A9EE"
+    },
+    {
+      "path": "admin/package.json",
+      "sha256": "41CE2D47E81EDED41CB8ACF54C1768CAE4556A15623EB1891C4752BC0D2D11F4"
+    },
+    {
+      "path": "admin/README.md",
+      "sha256": "7FFB9EC00354642911F6B613D611A4ECE88AF768613089A60BEB86A6A3BBD919"
+    },
+    {
+      "path": "admin/src/api.ts",
+      "sha256": "1F02C6D65F127D0F70C7A924992C0B2BA7AE11BB1FFF7D211384691BAC791282"
+    },
+    {
+      "path": "admin/src/main.tsx",
+      "sha256": "2E577B0B5E09A307EBAF57477DDA397EF9F2A61613CD60986B2CC5CBF76B481F"
+    },
+    {
+      "path": "admin/src/origin.ts",
+      "sha256": "8F8C95ACA31616D3F7A0089EE001A9FDFE4CD8DEE15D57077AC8F573389DE73F"
+    },
+    {
+      "path": "admin/src/refunds_workspace.tsx",
+      "sha256": "00181A05E2E66564DA28C8C4350C770D14A6A416A0C53D1C464E6CDB6FD4871A"
+    },
+    {
+      "path": "admin/src/styles.css",
+      "sha256": "7B66E4033682B1DB9F27F3F90314FF13B68035845F6012575B7C9AFCA8DBFA44"
+    },
+    {
+      "path": "admin/src/workspaces.tsx",
+      "sha256": "D2B8267430C5826E6E746A97C001F4D833EF0DBA22E769EB5D9D5FFFFE509540"
+    },
+    {
+      "path": "admin/tests/approval-validation.test.ts",
+      "sha256": "73DC0890B48FE93E4A227EBEF7FBD906D99ACA397CB2C4D85BD267E689BF85F9"
+    },
+    {
+      "path": "admin/tests/refund-validation.test.ts",
+      "sha256": "5C5B52AE77DC5A4B5D8BB2D2D9EA87FED64F54BDA9A2FFCC9F334FE68FE275C0"
+    },
+    {
+      "path": "admin/tests/rehearse.ps1",
+      "sha256": "377B52E89AC94ACA837A02415FAC44F8902CD8049BAE78034DCF1F8FE9483175"
+    },
+    {
+      "path": "admin/tests/sales-validation.test.ts",
+      "sha256": "A46A0808D73EE7DE88439EA5F94723D8417B9D9EEDA86417ADA2A270B193847C"
+    },
+    {
+      "path": "admin/tsconfig.json",
+      "sha256": "D2B05E53C4227E451B2031929F70FC7125F6B61DA7292540BC13724FB16E8008"
+    },
+    {
+      "path": "admin/vite.config.ts",
+      "sha256": "F6686CC325CC678CF9FF080A21B619CE90842957E5D76EB03D56B8365B8C2175"
+    },
+    {
+      "path": "contracts/admin-shifts.md",
+      "sha256": "9C9B84BC0EE92DBB60188ACF261987279A9CEC7D7417D8CF7C6B0144B2E5B899"
+    },
+    {
+      "path": "contracts/authority.md",
+      "sha256": "9499BB610A958F0A0B707F21DDE30B421144D36A06FAC0277C3B09DED3868036"
+    },
+    {
+      "path": "contracts/operating-expenses.md",
+      "sha256": "97C2ABE20EEA7FCD77C274598E238D91A79B486936E2735407BF77556CFE6EC7"
+    },
+    {
+      "path": "contracts/order-approvals.md",
+      "sha256": "BE4D08ACCA85D863E4C218102E2581DE653D48AB14AB6C3B97FC39B7FB092C4C"
+    },
+    {
+      "path": "contracts/order-cancellations.md",
+      "sha256": "2EF6A47BB4455634252352AE25E00B2204F01E7064D2133F19233E430D77ECE8"
+    },
+    {
+      "path": "contracts/refunds.md",
+      "sha256": "9BB47E5044B344D8C893D0D4B76B769FF4466313CE186BFE7980AA4F3405CB50"
+    },
+    {
+      "path": "contracts/sales-report.md",
+      "sha256": "F00E771A98A1E2AF548224EEBE7D2A7BB2CB9081374030C5E51748760C7E933D"
+    },
+    {
+      "path": "contracts/service-loop.md",
+      "sha256": "A2A51D0CB8665242921ADABD4F80BACEF81ED980B0D20B3A89D1BB240DFE10E1"
+    },
+    {
+      "path": "contracts/staff-recovery.md",
+      "sha256": "03EC4A319DACDE45F56EDC302BFA16006AC828A519C2C71F605A34E55047B23F"
+    },
+    {
+      "path": "mobile/android/app/build.gradle.kts",
+      "sha256": "EA3A33DA49A1AF210F0A52620431CCC687D2E298BFE1ED32C1EDC43FD9DA045F"
+    },
+    {
+      "path": "mobile/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+    },
+    {
+      "path": "mobile/android/app/src/main/AndroidManifest.xml",
+      "sha256": "23B9FCE1833C44330FF1698C77A10DF4C3C98687A7A0E3549805049B24F31776"
+    },
+    {
+      "path": "mobile/android/app/src/main/kotlin/com/cafedos/cafe_dos/MainActivity.kt",
+      "sha256": "6C3FE746CA6465BDDBB0689BF9A6DCA19C9A003F4FFC3580A7DCD877ACBA3235"
+    },
+    {
+      "path": "mobile/android/app/src/main/kotlin/com/cafedos/cafe_dos/RecoveryStorage.kt",
+      "sha256": "2A97B918D5F55708DB21B9D4ED7092E86107514204E195811CE3AF6A3E380A2F"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "DCA312EC77DE83E43EF70A825C299B51451247286C29167D62F19165750B8793"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "2DF60E2CFBEE873CE2858088CF003E6B93498F2F568476DA437610467EA1A9D7"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/values-night/styles.xml",
+      "sha256": "EA763597DC1A84C8034251CAEE98D7753E0FBF57340FFC94677427DE4B537516"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/values/styles.xml",
+      "sha256": "CCA15A99B59380A548BF6A890F7CA5380EE509B1F9BBB2F5F9EC3589FA25C2F7"
+    },
+    {
+      "path": "mobile/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+    },
+    {
+      "path": "mobile/android/build.gradle.kts",
+      "sha256": "5EF49C8E4A3966B474C82207C2151484DBC0DB84AE6B110401879D398AC1E4F6"
+    },
+    {
+      "path": "mobile/android/gradle.properties",
+      "sha256": "8C571C20E6B82D16E64D0A14320DB39367BA7D85AF2ECF3100F369459E1C0C8F"
+    },
+    {
+      "path": "mobile/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "A23FAF39F936281E98C22C568A812DED3684A61FCF683BBD1AAC2E85691622AC"
+    },
+    {
+      "path": "mobile/android/settings.gradle.kts",
+      "sha256": "F6DED0C0EE59C7B91C26E4A02D6EBDB2B5D153F5D070CFD761560813F7AAD15D"
+    },
+    {
+      "path": "mobile/lib/admin/admin_app.dart",
+      "sha256": "7930A15C545F31489FE43C14CA41D2B990A31650FB788B49E021B78600977CEE"
+    },
+    {
+      "path": "mobile/lib/app/cafe_theme.dart",
+      "sha256": "16F1D75E1BDE2F75E6663785EE4DC6AFC1C927C9F21E2540AE567127B5C0E8CF"
+    },
+    {
+      "path": "mobile/lib/connected/hub_setup.dart",
+      "sha256": "151972C87483F8DCA422C1F93116ED842A1A1156E626668C4F74418C5F63CB6E"
+    },
+    {
+      "path": "mobile/lib/connected/staff_app.dart",
+      "sha256": "AFEB41ACFD8A7BEB6B0F466459814014143B98B8578C44320A321AE29E7E4AAA"
+    },
+    {
+      "path": "mobile/lib/data/development_store.dart",
+      "sha256": "AD32D6A211DEA444DFE938402E6651732DD423573CB7DB7E0984CB2D1AAA91A3"
+    },
+    {
+      "path": "mobile/lib/data/hub_client.dart",
+      "sha256": "396451DB4991D58748367AC8D02B6A3A91C98D82FC523E59E4F5F7EC456C2D8B"
+    },
+    {
+      "path": "mobile/lib/data/platform_recovery_storage.dart",
+      "sha256": "B52719D3CE4128B1CBA9B490AB5922921213C8FABF619DC26B81358DF2D02240"
+    },
+    {
+      "path": "mobile/lib/data/staff_recovery.dart",
+      "sha256": "96E110053CA7C02E244F2E59883C870B4D319F87F245D62A7A9EA9F2E8E46347"
+    },
+    {
+      "path": "mobile/lib/domain/cafe_engine.dart",
+      "sha256": "3A12BFC7650620BF92B8D4FFD0B2C7320742D00686789D0A3A54720360A35255"
+    },
+    {
+      "path": "mobile/lib/main.dart",
+      "sha256": "AACB2E240F16CE06D535FA9985D06756EB548D37EAF5A10D8D7716DFE862A285"
+    },
+    {
+      "path": "mobile/lib/staff_wireframe/staff_app.dart",
+      "sha256": "ACB9B8B0E577455C79CBED0F133C012C298222DC7F9E506F676EC38FF9312849"
+    },
+    {
+      "path": "mobile/lib/wireframe_main.dart",
+      "sha256": "9301BD1CFA530C684AFBF253E07B3A267B66FE9DE50168030AA3937D3DB7B738"
+    },
+    {
+      "path": "mobile/pubspec.lock",
+      "sha256": "F665AFFCCD9CB91685B37A56A93F033C23624C1A969F7BE00663070A1000F15B"
+    },
+    {
+      "path": "mobile/pubspec.yaml",
+      "sha256": "DC4177ACE6C5CECF946F3BF70EF63726E6502FB223CC0A85F5927D44B2CE98A0"
+    },
+    {
+      "path": "mobile/README.md",
+      "sha256": "EEBC0B9B7603257358F9D3B002FC1A0AB47B8679F95A743126A7C179D7292FC1"
+    },
+    {
+      "path": "mobile/test/compact_ticket_test.dart",
+      "sha256": "A8BEDB78C829346B4F3199A953591547E9A22EC507734F248DCF26CA7105F7B7"
+    },
+    {
+      "path": "mobile/test/connected_approvals_test.dart",
+      "sha256": "2AA136C28A18DB19E7BE61F0E763113313C6DE82DA60A380CF60C8E40785BA60"
+    },
+    {
+      "path": "mobile/test/connected_recovery_test.dart",
+      "sha256": "31129DAD07A02BA49EDD7FB567D99F1887FA53F398F29E940CE01403CCE7675E"
+    },
+    {
+      "path": "mobile/test/connected_staff_test.dart",
+      "sha256": "B417C26405D054BC0ABCF8976E145DDFD2DB2BB2772203772EECFC0273C89273"
+    },
+    {
+      "path": "mobile/test/domain_test.dart",
+      "sha256": "17153EDDC0C4D4C9C8CB69EF139B3161F8404053A3FA878DAFAE436AA87ED6E3"
+    },
+    {
+      "path": "mobile/test/draft_orders_test.dart",
+      "sha256": "BA02A5B30212473F01A2A46DC381779BE05EB4FEEDF33CFDB95CE65F52B48E96"
+    },
+    {
+      "path": "mobile/test/hub_client_test.dart",
+      "sha256": "BB98E3E6D368A69510586ADF202C19C8A2DF3E4E49EF55B4AA9235AE5E2E825F"
+    },
+    {
+      "path": "mobile/test/hub_command_status_test.dart",
+      "sha256": "EFA21FC83E3D6ED7E969DCEA27DA2897B6E37F1FC7356DE1BA4D431EE4E1263C"
+    },
+    {
+      "path": "mobile/test/hub_setup_test.dart",
+      "sha256": "F86C8FBB65E7DE3F6A0ED225FC4F47E5C7D7BE8B90B3017FF76B70D93AE60063"
+    },
+    {
+      "path": "mobile/test/hub_transport_test.dart",
+      "sha256": "D0A92C088982156BFE3468CD57B5AE61BCC968B44EB3FE55AD626D5C912AA2DD"
+    },
+    {
+      "path": "mobile/test/layout_test.dart",
+      "sha256": "F0D5D7BC663899076B90B034715509F932B0B02A9914D584E07C78E0C5E602F9"
+    },
+    {
+      "path": "mobile/test/platform_recovery_storage_test.dart",
+      "sha256": "DA54B769E2B35FDBEEEAEBC38F70A81FBB541435DFCCF75A6509C2340E95CBBB"
+    },
+    {
+      "path": "mobile/test/recovery_transport_test.dart",
+      "sha256": "7B6A9289B1F817B733DB3DE04E78950B576723CEEE403F9589C8344D52EA358D"
+    },
+    {
+      "path": "mobile/test/staff_recovery_test.dart",
+      "sha256": "EC0D38AA9448B5E7903B054D375BAFFDF00BE50744FD1BD93344BBAC1E7B7293"
+    },
+    {
+      "path": "mobile/test/tables_flow_test.dart",
+      "sha256": "1DDFB9CAA148F0A4DC65774F354F5A39C81D8DFE58F3656332E0DA6220F06E98"
+    },
+    {
+      "path": "mobile/test/top_nav_controls_test.dart",
+      "sha256": "5632AF349E199FE657C0F53494C62132E24E5577E3771A8E1A5F113B461051FA"
+    },
+    {
+      "path": "mobile/test/widget_test.dart",
+      "sha256": "0B98D304DBD9E6F2DFC1969439697D897435831AA4E290C764D8661B09FF63AF"
+    },
+    {
+      "path": "mobile/test/wireframe_preview_test.dart",
+      "sha256": "319DA57FBA25C64208251733B2624B7BF026F9FD9B11DF3E1C3FFAFD75C75F03"
+    },
+    {
+      "path": "mobile/test/working_orders_test.dart",
+      "sha256": "3CAB76D1E349848515442B42143B123D15D237763F051D7EF1BF91265AD14C12"
+    },
+    {
+      "path": "mobile/tools/dev.ps1",
+      "sha256": "C8D347420AE02ABC2107F70A41D8B65AFFB48901482208F502120F87961A0366"
+    },
+    {
+      "path": "mobile/tools/rehearse-approvals.ps1",
+      "sha256": "41395409311C0D7A22ABBE44518363C9AF2BBD596C7F490D1A62A3B0BEF5209F"
+    },
+    {
+      "path": "mobile/tools/rehearse-recovery.ps1",
+      "sha256": "30FE786F3F6B38865ED5836610B72C541D332925037D4BC80DA90CFB3674F275"
+    },
+    {
+      "path": "services/migrations/001_authority.sql",
+      "sha256": "FF02BA488AF620B1D67E7BB9B5CECBECA23C4399823A6CC998FAAFED4BB3F00B"
+    },
+    {
+      "path": "services/migrations/002_auth_reservations.sql",
+      "sha256": "285049357B58713F2CB75F78546B69CC716EFF743AF92D840B5D6AA111FEBA31"
+    },
+    {
+      "path": "services/migrations/003_business.sql",
+      "sha256": "2165DA09767D10C2CC4D8E74BE0331CF294DF7264F35AC503A15C444E320272B"
+    },
+    {
+      "path": "services/migrations/004_command_context.sql",
+      "sha256": "22F38D9200849D4787ED5B27D3F604B058D5E066CF8FB3EE15D7EC194687C5EC"
+    },
+    {
+      "path": "services/migrations/005_operating_expenses.sql",
+      "sha256": "FD7C323D608D64762BBBE544F835DB9935C50212986A40681D4C04370A0B3F2A"
+    },
+    {
+      "path": "services/migrations/006_sales_valuation.sql",
+      "sha256": "5EEA5A97D8E67F2DEB4318F0AD990ED701823F5CBF9376F9F7CBC726621FCF3C"
+    },
+    {
+      "path": "services/migrations/007_order_approvals.sql",
+      "sha256": "D678B414C7B318CF1EE7FECA773F06F45A0D121D861389954A43E25DC0AA89C0"
+    },
+    {
+      "path": "services/migrations/008_order_cancellations.sql",
+      "sha256": "E20F71F7D3DD4B64DF5BA78F359449B45D648B810E975871D3700883E4023CB4"
+    },
+    {
+      "path": "services/migrations/009_refunds.sql",
+      "sha256": "374858D0507C8A836F3091110DB9C58A8EFBB61E22497E2A92D99D4332BA93C1"
+    },
+    {
+      "path": "services/package-lock.json",
+      "sha256": "10F6B3B2AC5954E81314DFBC454231D4C6B5C90629B8C96EF3E946B84DB920B2"
+    },
+    {
+      "path": "services/package.json",
+      "sha256": "116F6246EADF2BA822B1071EC586319CA3D57E130B4A9FB3958EFA77A0CF50AA"
+    },
+    {
+      "path": "services/README.md",
+      "sha256": "D44633BE8387ABFE129F6A0E812B627059D53D8C4F712E201726C27F138E9D09"
+    },
+    {
+      "path": "services/src/bootstrap.ts",
+      "sha256": "DEC5F374C36A9EE1587023D059B7BE6501028193803AF102D3CBFE1F65EAAD89"
+    },
+    {
+      "path": "services/src/business_routes.ts",
+      "sha256": "34EFAA5B2BE824AA13B05AC715E8572E6B0E31A055C6050E482BA4544DAB5893"
+    },
+    {
+      "path": "services/src/business_validation.ts",
+      "sha256": "09B232FD3B3509D8C65C26377F60870B10B0D20FCDC8428F91980A8442D0E451"
+    },
+    {
+      "path": "services/src/business.ts",
+      "sha256": "8DD2D03145C6F7332721FBD86AC99F0B72FED69E3E358856BAAE3B14FDD4BCDC"
+    },
+    {
+      "path": "services/src/database.ts",
+      "sha256": "B9E786F5BB22A0603D66E3376EAD3B0921DD7044F481717D2F7A05D99ED48280"
+    },
+    {
+      "path": "services/src/errors.ts",
+      "sha256": "8D65862CAD41B35CF37985649A257461BB5A916105681BC8040AF93E9DE66F1D"
+    },
+    {
+      "path": "services/src/hub.ts",
+      "sha256": "20420E7B08B4959C9B322CBB2795133A9CE7F52FC4EB2D19B2445F3A28DF97B7"
+    },
+    {
+      "path": "services/src/identity.ts",
+      "sha256": "C3CC040EFC1BF41BB4C032BA890290DE499962535B3D8D9F1CC8DEA6619B8F2C"
+    },
+    {
+      "path": "services/src/inventory_valuation.ts",
+      "sha256": "6443B4DA4720FDE61CF9C7FCA62E5FA5DDEED5A97BEAF886450B2834158FE467"
+    },
+    {
+      "path": "services/src/sales_report.ts",
+      "sha256": "C952B1D2FFF3A16892C55EC211145CF4A03ACE4617544F744118B88563784E85"
+    },
+    {
+      "path": "services/src/server.ts",
+      "sha256": "73E2DB858642058822561E10CD19DEAD13CCF6E853ADDF6F6D99838C1E15488A"
+    },
+    {
+      "path": "services/src/validation.ts",
+      "sha256": "D0E71DEB03245D690C1B1E69B8CE85616AEEDD8E3AA7B63F1DF3512551AB0F5E"
+    },
+    {
+      "path": "services/tests/admin-shifts.test.ts",
+      "sha256": "DB4974E8BC7D0569D4BA212D15987BD871B858C812B963C5DB7F0B8B6F7CB8FC"
+    },
+    {
+      "path": "services/tests/approval-migration.test.ts",
+      "sha256": "A3CBA3AB74BB18EFAAB7907DB5F1B57D0C98059788A950133D88DE1C13093035"
+    },
+    {
+      "path": "services/tests/approvals.test.ts",
+      "sha256": "BD0AC0140F785610A532132BD0DBA065373A4DA280E0A0FCD63950558E45EE51"
+    },
+    {
+      "path": "services/tests/authority-rate-limit.test.ts",
+      "sha256": "80CE7E18B45F5EC656F204ADE2AC59855BBFEC88901EE93C1F2B82FE1BD0A659"
+    },
+    {
+      "path": "services/tests/authority-storage.test.ts",
+      "sha256": "5434FE2B0B15FA0D4AD4AA1E5DA11253FC45E74272A9C3152FE1D65B8EC2513D"
+    },
+    {
+      "path": "services/tests/authority.test.ts",
+      "sha256": "A7F80A81CC78C22B81C985331CB5DD075E0856A62E550CB8444D345FA5F83079"
+    },
+    {
+      "path": "services/tests/business-migration.test.ts",
+      "sha256": "7EAF78CDF0F490B64325AF389CFBC71E3E27D6172102C1F427BAE932031D6745"
+    },
+    {
+      "path": "services/tests/cancellation-migration.test.ts",
+      "sha256": "6114F18B43F49B8E87B14DE368ACA8E0E4DEF448C5FE13A1E1AC72D97EA1EE36"
+    },
+    {
+      "path": "services/tests/cancellations.test.ts",
+      "sha256": "A146147FFAA48C0BFC98A1A01E20232464C8100AEC547EA06A63B450D9C68311"
+    },
+    {
+      "path": "services/tests/command-recovery.test.ts",
+      "sha256": "3DC9086837330DDA3F7888AD36B34295B7A9427A64CE32C54BEE32AEDCEEA6C7"
+    },
+    {
+      "path": "services/tests/fixtures/transport_hub.ts",
+      "sha256": "98CD85032843791C4333723235DE8116944B4693C8D5ECAAB324699128442FF5"
+    },
+    {
+      "path": "services/tests/http.test.ts",
+      "sha256": "02CDDEDFEDD0C35E89C0B349FDED6FE8996AACAB0B095A36D0FFC2841862667F"
+    },
+    {
+      "path": "services/tests/inventory-valuation.test.ts",
+      "sha256": "78E67023900EA9E74AEDC3B4E7F05CE5D5DF740E4587ED353B8BEBE1AF6E883B"
+    },
+    {
+      "path": "services/tests/migrations.test.ts",
+      "sha256": "166D3ED68F19E353CA5FA9B9D116AAFACE203B09AC14FF5E57E1763BD3A79759"
+    },
+    {
+      "path": "services/tests/operating-expenses.test.ts",
+      "sha256": "BD799CC7F19C677D3ABD8EFD768C1EE9E1D5F7B2EB82E09F1622489A2D3731AE"
+    },
+    {
+      "path": "services/tests/refund-migration.test.ts",
+      "sha256": "8A7844346D6045C3A62DEFCD0A7F09D65D7049758895008BC1192C5BCB14F72C"
+    },
+    {
+      "path": "services/tests/refund-scale.ts",
+      "sha256": "A5BD1320166FED23D93136C0D8AB42ACFA46548B98D9DB99E1FB389CB004FE61"
+    },
+    {
+      "path": "services/tests/refunds.test.ts",
+      "sha256": "F23013A64345286C6F4ACABDB31A91FE66D20AFD7092DD5679ED38394C6A76C3"
+    },
+    {
+      "path": "services/tests/sales-migration.test.ts",
+      "sha256": "821D761037863ECD2B82ED585C445FD8382434B5ABF5130F97A334422F4F2996"
+    },
+    {
+      "path": "services/tests/sales-report.test.ts",
+      "sha256": "39F7FB989AE755724144624BC6CB8C6E241D2741DC4761A350DF40260688FC86"
+    },
+    {
+      "path": "services/tests/service-loop-safety.test.ts",
+      "sha256": "0600DBBF93C17F704A12465AFE78099AC4E7E04E79A0BC025D6693356E9F6495"
+    },
+    {
+      "path": "services/tests/service-loop.test.ts",
+      "sha256": "9C399CA25A63C3EE341098E06BF0708B1F40E1167FCC3A582507D91B9092A060"
+    },
+    {
+      "path": "services/tsconfig.json",
+      "sha256": "FA59D1EE67FC2ACB261EA04F6427D873DC3AC7312829A447DF00D5E197E82746"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "scratch/refund-services-final.log",
+      "sha256": "6C70DDFDEA2442626C68D6426540CDA0D354E809AEB1AA8DFA0158C4E577506A"
+    },
+    {
+      "path": "scratch/refund-services-check.log",
+      "sha256": "6EBBA70B497C4E6A039F42DD62AFB1E18F86C5C0C61D80A5C910F7539A487DFE"
+    },
+    {
+      "path": "scratch/refund-http-verified.log",
+      "sha256": "A674FEED35AC03A841864D54DCA8A0BBCBDEE7B4ADE9A225220EC7074D7E887B"
+    },
+    {
+      "path": "scratch/refund-legacy-attribution-verified.log",
+      "sha256": "666592841E90B70268E922A8758E756C6705351B928590B9325BFA81F51E01B7"
+    },
+    {
+      "path": "scratch/refund-concurrent-requests-verified.log",
+      "sha256": "412471E437CCD3C30EA8480F42F82B94981EE57E7257F3D58F23F039792C01AB"
+    },
+    {
+      "path": "scratch/refund-cash-scale-verified.log",
+      "sha256": "CA9405A5639AA4DF33E39052609B5CD9C3BF9061D47A8C61296BDD1C9D1A5385"
+    },
+    {
+      "path": "scratch/refund-scale-types-verified.log",
+      "sha256": "6EBBA70B497C4E6A039F42DD62AFB1E18F86C5C0C61D80A5C910F7539A487DFE"
+    },
+    {
+      "path": "scratch/refund-staff-full-tests.log",
+      "sha256": "C430C6E70E355A6CFFAC52BFC71B0AFD04E360F107A114E1AC9869067670A7CD"
+    },
+    {
+      "path": "scratch/refund-staff-analyze.log",
+      "sha256": "1B9482060BA4A63183279488820E62B3B17664BD64187F984960D46F06E2B88E"
+    },
+    {
+      "path": "scratch/refund-admin-tests.log",
+      "sha256": "933724AA219390A8CE0EBD1615A65C911CDD3A8B377C72252D4DE6C683F6A628"
+    },
+    {
+      "path": "scratch/refund-admin-build.log",
+      "sha256": "3FE7C4A36E21CC5D21BACF8A4F05FE4180D665AAD7D428FFD46E4E22E9B84AF4"
+    },
+    {
+      "path": "scratch/refund-browser-verified.log",
+      "sha256": "3EC28D09D7AEB11D207392B499E58FFEA9CC3A528E36C96EE1DD86A9B2108709"
+    },
+    {
+      "path": "scratch/refund-browser-ledger-verified.log",
+      "sha256": "BDF99054A6CFE71F6AC73F6189A86F95138A1FDB3559695031F931D2DE931DBB"
+    },
+    {
+      "path": "scratch/refund-admin-regression-browser-verified.log",
+      "sha256": "3F521AF9522DF3B9E2226209D3911DE6F2D79B91A696AE2FDC2F6591BB0F0B07"
+    },
+    {
+      "path": "scratch/refund-admin-regression-ledger-verified.log",
+      "sha256": "59A3670BA469FCF11A707829A3FE18EC08F8249C859C2310A98AD85F79757C24"
+    },
+    {
+      "path": "scratch/refund-browser-fixture-20261105-accepted.sqlite",
+      "sha256": "12C7C21A3A26C7838E8B6E17942C9FFE4B69BE4E03088B83205416085D4285F4"
+    },
+    {
+      "path": "scratch/refund-admin-regression-fixture-20261105.sqlite",
+      "sha256": "64FF5F5B2E6ABAF4A60514DF122E67D8EF245B0BF8770D61ADA711A16BB768B3"
+    },
+    {
+      "path": "scratch/refund-staff-apk-build.log",
+      "sha256": "EE03DCC0FFDD37C7E7BDA2D371AAB2DB0445996ADE9C542E7A6A9F12161CF2C1"
+    },
+    {
+      "path": "scratch/refund-staff-apk-payload.json",
+      "sha256": "EB9210402CB66A3988BF32A06B004107DEB4A66D8F818E2EEFA0697D2ADCEB7D"
+    },
+    {
+      "path": "scratch/refund-staff-apk-signature.log",
+      "sha256": "F02232A413745D2F6442E4D685DF9BCC5B28E64E9BD4D4CD645CEA2B43A7031A"
+    }
+  ]
+}

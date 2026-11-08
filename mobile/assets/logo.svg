@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <!-- Rich Roasted Espresso Bean Gradient -->
+    <linearGradient id="beanGradient" x1="18%" y1="12%" x2="84%" y2="88%">
+      <stop offset="0%" stop-color="#A46439"/>
+      <stop offset="28%" stop-color="#884C25"/>
+      <stop offset="68%" stop-color="#673617"/>
+      <stop offset="100%" stop-color="#3D1D0B"/>
+    </linearGradient>
+
+    <!-- Warm Caramel Specular Sheen Gradient -->
+    <linearGradient id="caramelSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7C498" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#E29A5C" stop-opacity="0.60"/>
+      <stop offset="100%" stop-color="#A46439" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Artisanal Cleft Ivory Curve -->
+    <linearGradient id="cleftIvory" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#FAF1E8"/>
+      <stop offset="100%" stop-color="#E8D5C4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Coffee Bean Symbol tilted -22 degrees around center (Transparent Background) -->
+  <g transform="translate(32, 32) rotate(-22) translate(-32, -32)">
+    <!-- Organic Bean Silhouette with slight cleft notches -->
+    <path d="M 32 11.5
+             C 41.5 11.8 47.5 19.5 47.5 32
+             C 47.5 43.5 41 52.2 32 52.5
+             C 23 52.2 16.5 43.5 16.5 32
+             C 16.5 19.5 22.5 11.8 32 11.5 Z"
+          fill="url(#beanGradient)"/>
+
+    <!-- Left Volume Ambient Shadow -->
+    <path d="M 32 11.8
+             C 24 12.2 17.5 20 17.5 32
+             C 17.5 43 23.5 51.5 32 52.2
+             C 28.5 43.5 28.5 20.5 32 11.8 Z"
+          fill="#251006"
+          opacity="0.36"/>
+
+    <!-- Deep Cleft Shadow Groove -->
+    <path d="M 32 11.5
+             C 36.2 20.5 27.2 27.5 32.6 36.2
+             C 35.8 41 33.2 48 32 52.5"
+          stroke="#1F0D04"
+          stroke-width="3.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Crisp White Cleft S-Curve -->
+    <path d="M 32 12.5
+             C 35.8 20.8 27.6 27.6 32.5 36.0
+             C 35.2 40.5 32.8 47.5 32 51.5"
+          stroke="url(#cleftIvory)"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Upper Right Caramel Specular Highlight Arc -->
+    <path d="M 35.5 14.5
+             C 41.5 17.5 45 23.5 45 31
+             C 45 35 43.5 38.2 41.5 41"
+          stroke="url(#caramelSheen)"
+          stroke-width="2.2"
+          stroke-linecap="round"/>
+
+    <!-- Lower Right Specular Accent -->
+    <path d="M 39.5 43.8
+             C 38.2 46.2 36.2 48 34 49.2"
+          stroke="#F2B583"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity="0.85"/>
+  </g>
+</svg>

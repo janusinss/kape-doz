@@ -1,0 +1,152 @@
+{
+  "clientDate": "2026-11-04",
+  "timezone": "Asia/Manila",
+  "node": "22.21.0",
+  "scope": "Authority foundation, optional receipt and compact-layout checkpoint; not full-system acceptance",
+  "files": [
+    {
+      "path": "mobile\\lib\\admin\\admin_app.dart",
+      "sha256": "7930A15C545F31489FE43C14CA41D2B990A31650FB788B49E021B78600977CEE"
+    },
+    {
+      "path": "mobile\\lib\\app\\cafe_theme.dart",
+      "sha256": "16F1D75E1BDE2F75E6663785EE4DC6AFC1C927C9F21E2540AE567127B5C0E8CF"
+    },
+    {
+      "path": "mobile\\lib\\data\\development_store.dart",
+      "sha256": "AD32D6A211DEA444DFE938402E6651732DD423573CB7DB7E0984CB2D1AAA91A3"
+    },
+    {
+      "path": "mobile\\lib\\domain\\cafe_engine.dart",
+      "sha256": "3A12BFC7650620BF92B8D4FFD0B2C7320742D00686789D0A3A54720360A35255"
+    },
+    {
+      "path": "mobile\\lib\\main.dart",
+      "sha256": "776687A2E32A4219516DC65F9ACD56E1DB0E769BCE2669D87A96E8426872E80A"
+    },
+    {
+      "path": "mobile\\lib\\staff_wireframe\\staff_app.dart",
+      "sha256": "ACB9B8B0E577455C79CBED0F133C012C298222DC7F9E506F676EC38FF9312849"
+    },
+    {
+      "path": "mobile\\lib\\wireframe_main.dart",
+      "sha256": "9301BD1CFA530C684AFBF253E07B3A267B66FE9DE50168030AA3937D3DB7B738"
+    },
+    {
+      "path": "mobile\\pubspec.lock",
+      "sha256": "CE756628980D544573E9BB27D558A4F5267C40940A28B30AD09A1F7F1E1E115B"
+    },
+    {
+      "path": "mobile\\pubspec.yaml",
+      "sha256": "44A90F5F8402AA4886297F50BCDB3F1C4970C167C5B579F10D0CEFF6A4B1331D"
+    },
+    {
+      "path": "mobile\\test\\compact_ticket_test.dart",
+      "sha256": "A8BEDB78C829346B4F3199A953591547E9A22EC507734F248DCF26CA7105F7B7"
+    },
+    {
+      "path": "mobile\\test\\domain_test.dart",
+      "sha256": "17153EDDC0C4D4C9C8CB69EF139B3161F8404053A3FA878DAFAE436AA87ED6E3"
+    },
+    {
+      "path": "mobile\\test\\draft_orders_test.dart",
+      "sha256": "BA02A5B30212473F01A2A46DC381779BE05EB4FEEDF33CFDB95CE65F52B48E96"
+    },
+    {
+      "path": "mobile\\test\\layout_test.dart",
+      "sha256": "F0D5D7BC663899076B90B034715509F932B0B02A9914D584E07C78E0C5E602F9"
+    },
+    {
+      "path": "mobile\\test\\tables_flow_test.dart",
+      "sha256": "1DDFB9CAA148F0A4DC65774F354F5A39C81D8DFE58F3656332E0DA6220F06E98"
+    },
+    {
+      "path": "mobile\\test\\top_nav_controls_test.dart",
+      "sha256": "5632AF349E199FE657C0F53494C62132E24E5577E3771A8E1A5F113B461051FA"
+    },
+    {
+      "path": "mobile\\test\\widget_test.dart",
+      "sha256": "0B98D304DBD9E6F2DFC1969439697D897435831AA4E290C764D8661B09FF63AF"
+    },
+    {
+      "path": "mobile\\test\\wireframe_preview_test.dart",
+      "sha256": "319DA57FBA25C64208251733B2624B7BF026F9FD9B11DF3E1C3FFAFD75C75F03"
+    },
+    {
+      "path": "mobile\\test\\working_orders_test.dart",
+      "sha256": "3CAB76D1E349848515442B42143B123D15D237763F051D7EF1BF91265AD14C12"
+    },
+    {
+      "path": "mobile\\tools\\dev.ps1",
+      "sha256": "C8D347420AE02ABC2107F70A41D8B65AFFB48901482208F502120F87961A0366"
+    },
+    {
+      "path": "services\\migrations\\001_authority.sql",
+      "sha256": "FF02BA488AF620B1D67E7BB9B5CECBECA23C4399823A6CC998FAAFED4BB3F00B"
+    },
+    {
+      "path": "services\\migrations\\002_auth_reservations.sql",
+      "sha256": "285049357B58713F2CB75F78546B69CC716EFF743AF92D840B5D6AA111FEBA31"
+    },
+    {
+      "path": "services\\package-lock.json",
+      "sha256": "10F6B3B2AC5954E81314DFBC454231D4C6B5C90629B8C96EF3E946B84DB920B2"
+    },
+    {
+      "path": "services\\package.json",
+      "sha256": "116F6246EADF2BA822B1071EC586319CA3D57E130B4A9FB3958EFA77A0CF50AA"
+    },
+    {
+      "path": "services\\src\\bootstrap.ts",
+      "sha256": "DEC5F374C36A9EE1587023D059B7BE6501028193803AF102D3CBFE1F65EAAD89"
+    },
+    {
+      "path": "services\\src\\database.ts",
+      "sha256": "824190C5252A8A5A3798CE62465FC84C338B26FB94E9E490C4FF5369A2DEEC7E"
+    },
+    {
+      "path": "services\\src\\errors.ts",
+      "sha256": "8D65862CAD41B35CF37985649A257461BB5A916105681BC8040AF93E9DE66F1D"
+    },
+    {
+      "path": "services\\src\\hub.ts",
+      "sha256": "0ACBBAEC92D52CD36ECFF1CAF19935B632966679355D536787EC5B49FCD15E40"
+    },
+    {
+      "path": "services\\src\\identity.ts",
+      "sha256": "7F657E01DEC8A8D5B79B323C29181B17BE1A8D7DCE677CD1E9B4DDAD4921EC3C"
+    },
+    {
+      "path": "services\\src\\server.ts",
+      "sha256": "C58F01EA63D515E2B5978BA20BED73841374BD25D1F1A16534865B6C1345305E"
+    },
+    {
+      "path": "services\\src\\validation.ts",
+      "sha256": "D0E71DEB03245D690C1B1E69B8CE85616AEEDD8E3AA7B63F1DF3512551AB0F5E"
+    },
+    {
+      "path": "services\\tests\\authority-rate-limit.test.ts",
+      "sha256": "80CE7E18B45F5EC656F204ADE2AC59855BBFEC88901EE93C1F2B82FE1BD0A659"
+    },
+    {
+      "path": "services\\tests\\authority-storage.test.ts",
+      "sha256": "5434FE2B0B15FA0D4AD4AA1E5DA11253FC45E74272A9C3152FE1D65B8EC2513D"
+    },
+    {
+      "path": "services\\tests\\authority.test.ts",
+      "sha256": "A7F80A81CC78C22B81C985331CB5DD075E0856A62E550CB8444D345FA5F83079"
+    },
+    {
+      "path": "services\\tests\\http.test.ts",
+      "sha256": "25D8FFD02EDC563347889DF72FA7FEDCCFDDA2A942E61D2CECBB141E15F610FC"
+    },
+    {
+      "path": "services\\tests\\migrations.test.ts",
+      "sha256": "B9C83A75FB6104FD42E779B1E979730D7345B9B75D7EE91C9CA22CEB672973AD"
+    },
+    {
+      "path": "services\\tsconfig.json",
+      "sha256": "FA59D1EE67FC2ACB261EA04F6427D873DC3AC7312829A447DF00D5E197E82746"
+    }
+  ]
+}

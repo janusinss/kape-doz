@@ -1,0 +1,185 @@
+{
+  "clientDate": "2026-11-04",
+  "timezone": "Asia/Manila",
+  "node": "v22.21.0",
+  "schema": 5,
+  "scope": "Admin portal, expense allocation, command lookup and persistent service checks",
+  "files": [
+    {
+      "path": "admin/index.html",
+      "sha256": "97476B72C37CAF0826BA403000DD1FCEF67BB6B8F7DF044EAC0E695DA6D510D8"
+    },
+    {
+      "path": "admin/package-lock.json",
+      "sha256": "D5EF3F304A67D9813FC070D58C1AED770E57E45D8E9F5ECDF475D6D45539A9EE"
+    },
+    {
+      "path": "admin/package.json",
+      "sha256": "41CE2D47E81EDED41CB8ACF54C1768CAE4556A15623EB1891C4752BC0D2D11F4"
+    },
+    {
+      "path": "admin/src/api.ts",
+      "sha256": "3C0062874E25366F06771269DB80FB73F39ADBA3A3B714E5FC297D1B645D5B59"
+    },
+    {
+      "path": "admin/src/main.tsx",
+      "sha256": "B0A5826F01F6722E5105A88CEA60E7925D64BD655B8B891D90D75D75156ADE6F"
+    },
+    {
+      "path": "admin/src/origin.ts",
+      "sha256": "8F8C95ACA31616D3F7A0089EE001A9FDFE4CD8DEE15D57077AC8F573389DE73F"
+    },
+    {
+      "path": "admin/src/styles.css",
+      "sha256": "A8010B153033DA26277435C1B48A5347EF090A94E6B60F703424477F3878FF89"
+    },
+    {
+      "path": "admin/src/workspaces.tsx",
+      "sha256": "65E9BE668FA552EE8A694916EFB7959EFECF560B7CBDC5E962B7663B5CE18056"
+    },
+    {
+      "path": "admin/tests/rehearse.ps1",
+      "sha256": "A8945F43D16DF2B8E609A78295768968FCFB3D49DE1A57105A862A4B6582ED76"
+    },
+    {
+      "path": "admin/tsconfig.json",
+      "sha256": "D2B05E53C4227E451B2031929F70FC7125F6B61DA7292540BC13724FB16E8008"
+    },
+    {
+      "path": "admin/vite.config.ts",
+      "sha256": "F6686CC325CC678CF9FF080A21B619CE90842957E5D76EB03D56B8365B8C2175"
+    },
+    {
+      "path": "contracts/admin-shifts.md",
+      "sha256": "9C9B84BC0EE92DBB60188ACF261987279A9CEC7D7417D8CF7C6B0144B2E5B899"
+    },
+    {
+      "path": "contracts/operating-expenses.md",
+      "sha256": "97C2ABE20EEA7FCD77C274598E238D91A79B486936E2735407BF77556CFE6EC7"
+    },
+    {
+      "path": "contracts/service-loop.md",
+      "sha256": "A2A51D0CB8665242921ADABD4F80BACEF81ED980B0D20B3A89D1BB240DFE10E1"
+    },
+    {
+      "path": "services/migrations/001_authority.sql",
+      "sha256": "FF02BA488AF620B1D67E7BB9B5CECBECA23C4399823A6CC998FAAFED4BB3F00B"
+    },
+    {
+      "path": "services/migrations/002_auth_reservations.sql",
+      "sha256": "285049357B58713F2CB75F78546B69CC716EFF743AF92D840B5D6AA111FEBA31"
+    },
+    {
+      "path": "services/migrations/003_business.sql",
+      "sha256": "2165DA09767D10C2CC4D8E74BE0331CF294DF7264F35AC503A15C444E320272B"
+    },
+    {
+      "path": "services/migrations/004_command_context.sql",
+      "sha256": "22F38D9200849D4787ED5B27D3F604B058D5E066CF8FB3EE15D7EC194687C5EC"
+    },
+    {
+      "path": "services/migrations/005_operating_expenses.sql",
+      "sha256": "FD7C323D608D64762BBBE544F835DB9935C50212986A40681D4C04370A0B3F2A"
+    },
+    {
+      "path": "services/package-lock.json",
+      "sha256": "10F6B3B2AC5954E81314DFBC454231D4C6B5C90629B8C96EF3E946B84DB920B2"
+    },
+    {
+      "path": "services/package.json",
+      "sha256": "116F6246EADF2BA822B1071EC586319CA3D57E130B4A9FB3958EFA77A0CF50AA"
+    },
+    {
+      "path": "services/src/bootstrap.ts",
+      "sha256": "DEC5F374C36A9EE1587023D059B7BE6501028193803AF102D3CBFE1F65EAAD89"
+    },
+    {
+      "path": "services/src/business_routes.ts",
+      "sha256": "DDA411B79D386E9D9DADB2A4DBAB350429C1ECB68324EA6592DDF1FD3918D3D3"
+    },
+    {
+      "path": "services/src/business_validation.ts",
+      "sha256": "42DDF24DADE243E0EC754486F150F5CFA8C0458F6ACB7FFC872B44471B756C73"
+    },
+    {
+      "path": "services/src/business.ts",
+      "sha256": "5D4D91A79EF7F3E9C955CD20E799EF3E1D4DC709C42AB28C571F484902DE3069"
+    },
+    {
+      "path": "services/src/database.ts",
+      "sha256": "07B741029DE5B5F664B0D531E8E0B3E7604760236DB0AC16E43AD2E3133A1A87"
+    },
+    {
+      "path": "services/src/errors.ts",
+      "sha256": "8D65862CAD41B35CF37985649A257461BB5A916105681BC8040AF93E9DE66F1D"
+    },
+    {
+      "path": "services/src/hub.ts",
+      "sha256": "5170CA2BEBF744076BD4D81CFB71DE760BC6298F28F2CBD53CFE3F76278A30CC"
+    },
+    {
+      "path": "services/src/identity.ts",
+      "sha256": "C3CC040EFC1BF41BB4C032BA890290DE499962535B3D8D9F1CC8DEA6619B8F2C"
+    },
+    {
+      "path": "services/src/server.ts",
+      "sha256": "73E2DB858642058822561E10CD19DEAD13CCF6E853ADDF6F6D99838C1E15488A"
+    },
+    {
+      "path": "services/src/validation.ts",
+      "sha256": "D0E71DEB03245D690C1B1E69B8CE85616AEEDD8E3AA7B63F1DF3512551AB0F5E"
+    },
+    {
+      "path": "services/tests/admin-shifts.test.ts",
+      "sha256": "DB4974E8BC7D0569D4BA212D15987BD871B858C812B963C5DB7F0B8B6F7CB8FC"
+    },
+    {
+      "path": "services/tests/authority-rate-limit.test.ts",
+      "sha256": "80CE7E18B45F5EC656F204ADE2AC59855BBFEC88901EE93C1F2B82FE1BD0A659"
+    },
+    {
+      "path": "services/tests/authority-storage.test.ts",
+      "sha256": "5434FE2B0B15FA0D4AD4AA1E5DA11253FC45E74272A9C3152FE1D65B8EC2513D"
+    },
+    {
+      "path": "services/tests/authority.test.ts",
+      "sha256": "A7F80A81CC78C22B81C985331CB5DD075E0856A62E550CB8444D345FA5F83079"
+    },
+    {
+      "path": "services/tests/business-migration.test.ts",
+      "sha256": "EEE75E3C4BCB19F2A8ACA2362A6E74C22196487D18370D9B1C3B002EF6AB626F"
+    },
+    {
+      "path": "services/tests/command-recovery.test.ts",
+      "sha256": "3DC9086837330DDA3F7888AD36B34295B7A9427A64CE32C54BEE32AEDCEEA6C7"
+    },
+    {
+      "path": "services/tests/fixtures/transport_hub.ts",
+      "sha256": "46AAFBE0DE8A13AA47E38348EECFC24BDFE3CC39F52D4D89E16F9192CBC30705"
+    },
+    {
+      "path": "services/tests/http.test.ts",
+      "sha256": "02CDDEDFEDD0C35E89C0B349FDED6FE8996AACAB0B095A36D0FFC2841862667F"
+    },
+    {
+      "path": "services/tests/migrations.test.ts",
+      "sha256": "66D6E83188B11A951BED1614137E7EA982BFDDFAFCAAB031480CDD7017F11314"
+    },
+    {
+      "path": "services/tests/operating-expenses.test.ts",
+      "sha256": "BD799CC7F19C677D3ABD8EFD768C1EE9E1D5F7B2EB82E09F1622489A2D3731AE"
+    },
+    {
+      "path": "services/tests/service-loop-safety.test.ts",
+      "sha256": "72474FD1CD39084A4E1E6EF7C60809AC50A196AF15F503E21612BC8657E8397F"
+    },
+    {
+      "path": "services/tests/service-loop.test.ts",
+      "sha256": "9C399CA25A63C3EE341098E06BF0708B1F40E1167FCC3A582507D91B9092A060"
+    },
+    {
+      "path": "services/tsconfig.json",
+      "sha256": "FA59D1EE67FC2ACB261EA04F6427D873DC3AC7312829A447DF00D5E197E82746"
+    }
+  ]
+}

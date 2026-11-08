@@ -1,0 +1,87 @@
+{
+  "clientDate": "2026-11-04",
+  "timezone": "Asia/Manila",
+  "purpose": "Planning baseline source snapshot; source hashes do not constitute test results",
+  "files": [
+    {
+      "path": "BACKEND_ARCHITECTURE.md",
+      "sha256": "B64F8825B2D27768CDB5E1A5EDEDE01F1683587C1EAE042A8DDA2AFB33CFBF5A"
+    },
+    {
+      "path": "mobile\\lib\\admin\\admin_app.dart",
+      "sha256": "7930A15C545F31489FE43C14CA41D2B990A31650FB788B49E021B78600977CEE"
+    },
+    {
+      "path": "mobile\\lib\\app\\cafe_theme.dart",
+      "sha256": "16F1D75E1BDE2F75E6663785EE4DC6AFC1C927C9F21E2540AE567127B5C0E8CF"
+    },
+    {
+      "path": "mobile\\lib\\data\\development_store.dart",
+      "sha256": "AD32D6A211DEA444DFE938402E6651732DD423573CB7DB7E0984CB2D1AAA91A3"
+    },
+    {
+      "path": "mobile\\lib\\domain\\cafe_engine.dart",
+      "sha256": "4948AC1916583B9BEA9DE6E3AAC0923B002AD1EFB37BABC1E589120EDDEC30AB"
+    },
+    {
+      "path": "mobile\\lib\\main.dart",
+      "sha256": "B4322537C0B7D3BEDE5EBB0066AB37218C4262155AF3E3E568A133D88B0A2A39"
+    },
+    {
+      "path": "mobile\\lib\\staff_wireframe\\staff_app.dart",
+      "sha256": "ACB9B8B0E577455C79CBED0F133C012C298222DC7F9E506F676EC38FF9312849"
+    },
+    {
+      "path": "mobile\\lib\\wireframe_main.dart",
+      "sha256": "9301BD1CFA530C684AFBF253E07B3A267B66FE9DE50168030AA3937D3DB7B738"
+    },
+    {
+      "path": "mobile\\pubspec.lock",
+      "sha256": "CE756628980D544573E9BB27D558A4F5267C40940A28B30AD09A1F7F1E1E115B"
+    },
+    {
+      "path": "mobile\\pubspec.yaml",
+      "sha256": "44A90F5F8402AA4886297F50BCDB3F1C4970C167C5B579F10D0CEFF6A4B1331D"
+    },
+    {
+      "path": "mobile\\test\\domain_test.dart",
+      "sha256": "393203CB7AB912A09A0BA3605AAE644C2814A7F018F84A171F79B1CF7DC5D3A5"
+    },
+    {
+      "path": "mobile\\test\\draft_orders_test.dart",
+      "sha256": "BA02A5B30212473F01A2A46DC381779BE05EB4FEEDF33CFDB95CE65F52B48E96"
+    },
+    {
+      "path": "mobile\\test\\layout_test.dart",
+      "sha256": "F0D5D7BC663899076B90B034715509F932B0B02A9914D584E07C78E0C5E602F9"
+    },
+    {
+      "path": "mobile\\test\\tables_flow_test.dart",
+      "sha256": "1DDFB9CAA148F0A4DC65774F354F5A39C81D8DFE58F3656332E0DA6220F06E98"
+    },
+    {
+      "path": "mobile\\test\\top_nav_controls_test.dart",
+      "sha256": "6B3539120C1D1F40BD55C92E070AA8B547DE3682E307F213FFFE7D0FD8FEC23F"
+    },
+    {
+      "path": "mobile\\test\\widget_test.dart",
+      "sha256": "D5BB8251157D09A304C3B2CFFEE6B7B20F86FC9DA41BCDE16D9260656BFD88F0"
+    },
+    {
+      "path": "mobile\\test\\wireframe_preview_test.dart",
+      "sha256": "319DA57FBA25C64208251733B2624B7BF026F9FD9B11DF3E1C3FFAFD75C75F03"
+    },
+    {
+      "path": "mobile\\test\\working_orders_test.dart",
+      "sha256": "3CAB76D1E349848515442B42143B123D15D237763F051D7EF1BF91265AD14C12"
+    },
+    {
+      "path": "mobile\\tools\\dev.ps1",
+      "sha256": "C8D347420AE02ABC2107F70A41D8B65AFFB48901482208F502120F87961A0366"
+    },
+    {
+      "path": "PRODUCT.md",
+      "sha256": "D4E58972A5FB2E3DC84CE53DD5354159FB8FB7EDBD0194BE3836F589E6739594"
+    }
+  ]
+}

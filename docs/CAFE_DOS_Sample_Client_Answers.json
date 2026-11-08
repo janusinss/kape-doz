@@ -1,0 +1,474 @@
+{
+  "status": "Hypothetical answers; not client-approved",
+  "mobile_assumption": "Mobile-app assumption: staff use a tablet-friendly app, with phone-friendly access where useful. Android/iPad support, printer compatibility, local equipment and offline device-to-device operation still need confirmation and testing. A mobile app alone does not guarantee that separate devices or printers work during an outage.",
+  "answers": [
+    {
+      "number": 1,
+      "topic": "Local equipment",
+      "question": "Can one device stay switched on during opening hours to connect the cashier, barista screen and printers?",
+      "choice": "Discuss",
+      "selection": "Not sure / discuss with us",
+      "answer": "We mainly expect to use tablets. We are open to keeping a suitable device switched on during service, but please check what equipment we have before deciding whether an extra device is needed.",
+      "status": "Equipment detail still unknown; discuss with client"
+    },
+    {
+      "number": 2,
+      "topic": "Sending orders",
+      "question": "Should the barista receive an order before or after the customer pays?",
+      "choice": "C",
+      "selection": "Allow both, depending on dine-in or takeout.",
+      "answer": "We would like both options, depending on whether the order is dine-in or takeout.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 3,
+      "topic": "Dine-in and takeout",
+      "question": "Which starting arrangement do you prefer for dine-in and takeout?",
+      "choice": "A",
+      "selection": "Dine-in can be sent before payment; takeout waits for payment.",
+      "answer": "For dine-in, let the cashier send the drinks to the barista before payment. For takeout, wait until the full payment is confirmed.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 4,
+      "topic": "Taking payments",
+      "question": "Which payment methods should the first version support?",
+      "choice": "A",
+      "selection": "Cash, plus manually checked GCash and card payments.",
+      "answer": "Please support cash and let our staff record GCash or card payments after checking them through our existing payment app or terminal.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 5,
+      "topic": "Points during outages",
+      "question": "What should customers be able to do with points when the internet is down?",
+      "choice": "A",
+      "selection": "Earn points, but wait for internet before using points for a discount.",
+      "answer": "Customers can still earn points when the internet is down. Please keep them pending until the connection returns, and wait for an online check before letting customers use points.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 6,
+      "topic": "Value of points",
+      "question": "What should customers receive when they use their points?",
+      "choice": "A",
+      "selection": "1 point gives a PHP1 discount.",
+      "answer": "Let 1 point give a PHP1 discount. We want the reward to be easy for both customers and staff to understand.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 7,
+      "topic": "Earning whole points",
+      "question": "If a customer spends PHP165, what should happen to the extra PHP65?",
+      "choice": "A",
+      "selection": "Give 1 point. Do not carry the extra PHP65 to another purchase.",
+      "answer": "Please give whole points for each purchase. For example, PHP165 earns 1 point, and the extra PHP65 does not carry over.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 8,
+      "topic": "Spending that earns points",
+      "question": "If points reduce a PHP200 bill to PHP180, how many new points should the customer earn?",
+      "choice": "A",
+      "selection": "1 point: calculate from PHP180 paid after discounts and points.",
+      "answer": "Give new points based on what the customer actually pays after discounts and points. If the final amount is PHP180, that earns 1 point.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 9,
+      "topic": "Refund permission",
+      "question": "Who may approve refunds or cancel drinks after preparation has started?",
+      "choice": "A",
+      "selection": "Owner or manager only.",
+      "answer": "Only the owner or manager should approve refunds and cancellations once preparation has started. Staff can send a request.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 10,
+      "topic": "Ingredient costs",
+      "question": "When a new delivery costs more or less, how should the system estimate ingredient cost?",
+      "choice": "A",
+      "selection": "Use the average cost of the old stock and new delivery.",
+      "answer": "Please use the average cost of the stock we already have and the new delivery. That should help us understand ingredient costs without changing the records of older sales.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 11,
+      "topic": "Stock shortages",
+      "question": "What should happen if the system says there are not enough ingredients for an order?",
+      "choice": "B",
+      "selection": "Warn staff, allow the sale and flag the shortage for checking.",
+      "answer": "Warn the cashier if the recorded ingredients are running short, but allow the sale. Please flag the shortage so the manager can compare it with the actual stock.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 12,
+      "topic": "Points expiry",
+      "question": "Should unused loyalty points expire?",
+      "choice": "C",
+      "selection": "Start with no expiry; let the owner set an expiry policy later.",
+      "answer": "Start with no expiry. We would like the owner to be able to set an expiry policy later.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 13,
+      "topic": "Points on refunded purchases",
+      "question": "When a purchase is refunded, what should happen to its points?",
+      "choice": "A",
+      "selection": "Remove points earned from the refunded part and return points used for that part.",
+      "answer": "Please adjust the points to match the refunded part of the purchase: take back points earned from that part and return any points used for it.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 14,
+      "topic": "Points already spent",
+      "question": "What if a refunded purchase earned points that the customer has already used?",
+      "choice": "B",
+      "selection": "Flag it for the owner/manager to review and resolve manually.",
+      "answer": "If those points have already been used, please flag the case for the manager. We would rather review it than automatically put the customer into a negative points balance.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 15,
+      "topic": "Split payments",
+      "question": "May one order be paid using more than one payment method?",
+      "choice": "A",
+      "selection": "Yes, allow split payments.",
+      "answer": "Yes, let a customer split a bill between payment methods, such as part cash and part GCash. Show the remaining amount clearly.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 16,
+      "topic": "Inactive customers",
+      "question": "How long without a purchase should make a customer count as inactive?",
+      "choice": "C",
+      "selection": "Start at 30 days; allow the owner to change the number of days.",
+      "answer": "Start by calling a customer inactive after 30 days without a purchase. Let the owner change that period later.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 17,
+      "topic": "VIP customers",
+      "question": "How should a customer qualify as a VIP?",
+      "choice": "C",
+      "selection": "Owner chooses either spending or purchase count and sets the target.",
+      "answer": "Let the owner choose whether VIP status is based on total spending or number of purchases. We will agree the target before turning that label on.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 18,
+      "topic": "Discount permission",
+      "question": "Who may apply discounts?",
+      "choice": "B",
+      "selection": "All discounts need owner/manager approval.",
+      "answer": "All discounts should need owner or manager approval, including the preset ones. Staff should be able to request approval in the app.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 19,
+      "topic": "Approval to use points",
+      "question": "Should using loyalty points also need owner/manager approval?",
+      "choice": "B",
+      "selection": "Yes. Require owner/manager approval and the online check.",
+      "answer": "Using points should also need owner or manager approval, as well as an online check of the available points.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 20,
+      "topic": "When to reduce ingredient stock",
+      "question": "When should the system subtract the ingredients used for a drink?",
+      "choice": "B",
+      "selection": "When the barista marks the drink ready.",
+      "answer": "Subtract the recipe ingredients when the barista marks the drink ready. Reserve them when the order is sent, so we can also see what is needed for drinks still being prepared.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 21,
+      "topic": "Refunding split payments",
+      "question": "For a partial refund on a split payment, how should money be returned?",
+      "choice": "B",
+      "selection": "Manager chooses the amounts, without exceeding what remains refundable on each original method.",
+      "answer": "Let the manager choose how to return the money across the original payment methods. Do not let the refund exceed what is still refundable through each method.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 22,
+      "topic": "Cash drawers",
+      "question": "How should tablets/registers share cash drawers?",
+      "choice": "C",
+      "selection": "Support both; the owner assigns registers to drawers.",
+      "answer": "Please support either a shared cash drawer or separate drawers. The owner will assign each register to the correct drawer after the counter setup is confirmed.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 23,
+      "topic": "Closing cash count",
+      "question": "Should staff see the expected cash amount before entering what they counted?",
+      "choice": "A",
+      "selection": "Blind count: only owner/manager sees expected cash and any difference.",
+      "answer": "Staff should enter the cash they counted before seeing any expected amount. Only the owner or manager should see the expected cash and the difference.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 24,
+      "topic": "Closing approval",
+      "question": "Who should finalize the shift after staff submits the cash count?",
+      "choice": "A",
+      "selection": "Owner/manager reviews and approves closure.",
+      "answer": "Staff can submit their count, but the owner or manager should review it and approve the final closing.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 25,
+      "topic": "Cash while closing",
+      "question": "While a drawer waits for closing approval, should it accept more cash transactions?",
+      "choice": "A",
+      "selection": "Pause cash movements on that drawer; use another open drawer if available.",
+      "answer": "Pause cash activity on that drawer while its closing is being checked. Another open drawer can be used if one is available.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 26,
+      "topic": "Low-stock alerts",
+      "question": "Where should the owner/manager receive low-stock alerts?",
+      "choice": "A",
+      "selection": "Inside the dashboard only at first.",
+      "answer": "Dashboard alerts are enough for the first version. We can discuss email or text messages later if we need them.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 27,
+      "topic": "Number of branches",
+      "question": "How many branches should operate on the first release?",
+      "choice": "A",
+      "selection": "One branch first; prepare for adding branches later.",
+      "answer": "Start with one branch. Please keep the system ready for future branches so we do not have to start again when the business grows.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 28,
+      "topic": "Invoices and payment slips",
+      "question": "What should the new system issue when a customer pays?",
+      "choice": "C",
+      "selection": "Confirm with the owner/accountant later, before live checkout begins.",
+      "answer": "We need to confirm the invoice process with the owner and accountant before live checkout starts. Please do not assume an internal payment slip will replace our official invoice.",
+      "status": "Earlier planning choice; client confirmation needed"
+    },
+    {
+      "number": 29,
+      "topic": "Tablets and computers",
+      "question": "What devices will staff use?",
+      "choice": "A",
+      "selection": "Use the devices we already have.",
+      "answer": "We would prefer to use our existing tablets where they are suitable, with a separate screen for the barista. Please check the actual device models and operating systems with us.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 30,
+      "topic": "Existing printers",
+      "question": "Do you already have printers for customer slips, preparation tickets or cup stickers?",
+      "choice": "Discuss",
+      "selection": "Not sure / discuss with us",
+      "answer": "Please inspect the printers we already have, if any, and tell us which can be reused. We still need to confirm whether a separate cup-sticker printer is available.",
+      "status": "Equipment detail still unknown; discuss with client"
+    },
+    {
+      "number": 31,
+      "topic": "Printer connections and paper",
+      "question": "How do your printers connect, and what paper or label size do they use?",
+      "choice": "Discuss",
+      "selection": "Not sure / discuss with us",
+      "answer": "We need help checking the printer connections and the paper or sticker sizes. Please record the exact models and test them with the mobile app before we settle on the setup.",
+      "status": "Equipment detail still unknown; discuss with client"
+    },
+    {
+      "number": 32,
+      "topic": "Where to print",
+      "question": "Which outputs do you need?",
+      "choice": "A",
+      "selection": "Customer slip and cup stickers; preparation stays on the screen.",
+      "answer": "We would like a customer slip at the cashier, one sticker for each drink, and the preparation orders on the barista screen. A second preparation printout is not a starting requirement.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 33,
+      "topic": "Automatic customer slips",
+      "question": "When should a customer payment slip print?",
+      "choice": "A",
+      "selection": "Automatically after the full order is paid.",
+      "answer": "Print one customer payment slip automatically after the whole order is paid. Please review a sample with us, and keep the official invoice process subject to the owner’s confirmation.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 34,
+      "topic": "Cup sticker quantity",
+      "question": "How many cup stickers should print?",
+      "choice": "A",
+      "selection": "One sticker per drink/cup, including separate copies for quantities.",
+      "answer": "Print one sticker for each cup, even if several cups are the same drink. Print it when that drink is released to the barista, so it can be used during preparation.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 35,
+      "topic": "Printed content",
+      "question": "What details should appear on cup stickers and customer slips?",
+      "choice": "A",
+      "selection": "Use those starting details, then review a sample print.",
+      "answer": "Start with the drink, size, customizations, and order or table number on the sticker. On the customer slip, show the items, prices, discounts, payment methods, and change; please let us approve a sample.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 36,
+      "topic": "Reprinting",
+      "question": "Who can print another copy if a slip or sticker is lost or damaged?",
+      "choice": "C",
+      "selection": "Staff can reprint stickers; customer slip copies need approval.",
+      "answer": "Let staff reprint a damaged cup sticker so service can continue. Extra customer slip copies should need manager approval, and each extra copy should be marked and recorded as a reprint.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 37,
+      "topic": "Printer problems",
+      "question": "If printing fails, how should service continue?",
+      "choice": "A",
+      "selection": "Continue with the barista screen or handwritten labels; retry printing separately.",
+      "answer": "Keep service moving using the barista screen and handwritten labels if necessary. Show the printing problem clearly and let staff retry the print without creating another order.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 38,
+      "topic": "Menu sizes and extras",
+      "question": "How should we collect your drink sizes and customization choices?",
+      "choice": "B",
+      "selection": "We need the team to help prepare this with the owner/barista.",
+      "answer": "Please help us prepare the recipe and customization sheet with our owner or lead barista. We will provide the menu and approve the quantities, prices, sizes, and extras.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 39,
+      "topic": "Packaging",
+      "question": "Do dine-in and takeout orders use different cups, lids or other packaging?",
+      "choice": "C",
+      "selection": "Some items differ; we will list them.",
+      "answer": "Some items may use different packaging for dine-in and takeout. Please let us list the actual differences rather than assuming every drink uses a disposable cup and lid.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 40,
+      "topic": "Correcting waste entries",
+      "question": "Who may correct a saved waste or dial-in entry?",
+      "choice": "A",
+      "selection": "Owner/manager only; staff requests a correction.",
+      "answer": "Staff can ask for a correction, but the owner or manager should approve it. Please keep the original waste entry and the reason for changing it.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 41,
+      "topic": "Customer identification",
+      "question": "What information should staff use to find a loyalty customer?",
+      "choice": "A",
+      "selection": "Name and mobile number.",
+      "answer": "Name and mobile number would be a simple way to find a loyalty customer. Please explain what the details are used for, and let walk-in customers buy without joining the loyalty program.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 42,
+      "topic": "Minimum points to use",
+      "question": "What is the minimum number of points a customer may use?",
+      "choice": "A",
+      "selection": "Any whole number, starting at 1 point.",
+      "answer": "Allow customers to use any whole number of points, starting from 1 point, as long as the balance, approval, and bill amount allow it.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 43,
+      "topic": "Newly earned points",
+      "question": "When may points earned from a purchase be used?",
+      "choice": "A",
+      "selection": "Only on a later purchase, after the points are confirmed.",
+      "answer": "Points earned from a purchase should be used on a later purchase, once they are confirmed. That will keep the current checkout easier to follow.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 44,
+      "topic": "Business-day closing",
+      "question": "If service continues after midnight, which day should those sales belong to?",
+      "choice": "B",
+      "selection": "Use an owner-set closing time for the business day.",
+      "answer": "Let the owner set the business-day closing time to match our opening hours. We will confirm that time, especially if we sometimes serve past midnight.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 45,
+      "topic": "Backups and recovery",
+      "question": "What backup and recovery arrangement should we plan?",
+      "choice": "A",
+      "selection": "Automatic backups; agree recovery details with the owner.",
+      "answer": "We would like automatic backups so we are not relying on staff to remember. Please agree who checks them and how we recover if a tablet or other device stops working.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 46,
+      "topic": "Tax and invoice setup",
+      "question": "Who will confirm the tax, discount and official invoice setup?",
+      "choice": "C",
+      "selection": "Both owner and accountant/bookkeeper will confirm.",
+      "answer": "The owner and accountant or bookkeeper should confirm the tax, discount, and invoice details together. We will provide the actual details rather than asking the team to guess.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 47,
+      "topic": "Information to import",
+      "question": "What information should move from Loyverse into the new system?",
+      "choice": "C",
+      "selection": "Those items plus customer/loyalty data, if the source allows it.",
+      "answer": "Please bring over our menu, prices, and starting stock. We would also like customer and points balances if the available export supports them and we can check the results.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 48,
+      "topic": "Switch-over day",
+      "question": "How should the cafe switch to the new system?",
+      "choice": "B",
+      "selection": "Run a supervised trial first, then agree the live switch-over.",
+      "answer": "Please run a supervised trial and train our staff before the final switch. We will agree a clear cutoff for stock, points, and sales so transactions are not counted twice.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 49,
+      "topic": "Staff sign-in",
+      "question": "How should staff identify themselves at a shared tablet?",
+      "choice": "A",
+      "selection": "Each staff member has an individual PIN for quick sign-in.",
+      "answer": "Give each staff member their own PIN for quick switching on a shared tablet. Owner and manager access should have stronger sign-in protection.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 50,
+      "topic": "Getting manager approval",
+      "question": "How should a manager approve a staff request?",
+      "choice": "C",
+      "selection": "Support both, subject to connection availability.",
+      "answer": "Support approval at the counter or from an authorized manager device when the connection allows it. Please make it clear when approval is still pending, especially during an outage.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 51,
+      "topic": "Operating expenses",
+      "question": "How should rent, wages, utilities and other running costs be entered?",
+      "choice": "A",
+      "selection": "Owner/manager enters them manually.",
+      "answer": "Let the owner or manager enter rent, payroll, utilities, and other expenses manually at first. We can add spreadsheet imports later if there is a need.",
+      "status": "Suggested answer; client confirmation needed"
+    },
+    {
+      "number": 52,
+      "topic": "Acceptance and priorities",
+      "question": "Who will check the system before live use, and what must work first?",
+      "choice": "B",
+      "selection": "Owner/manager signs off after a staff trial.",
+      "answer": "The owner or manager should sign off after a staff trial. Our first priorities are quick checkout, dependable kitchen orders and cup labels, and accurate ingredient tracking.",
+      "status": "Suggested answer; client confirmation needed"
+    }
+  ]
+}
